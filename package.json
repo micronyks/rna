@@ -17,7 +17,9 @@
     "@mui/icons-material": "^5.15.6",
     "@mui/material": "^5.15.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.21.3",
+    "vite-plugin-fonts": "^0.7.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.20.0",

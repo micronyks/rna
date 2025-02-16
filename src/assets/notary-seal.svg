@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="120" cy="120" r="110" fill="none" stroke="#FF4500" stroke-width="4"/>
+  <circle cx="120" cy="120" r="90" fill="none" stroke="#FF4500" stroke-width="2"/>
+  <path d="M120 30 L120 50 M120 190 L120 210 M30 120 L50 120 M190 120 L210 120" stroke="#FF4500" stroke-width="4"/>
+  <text x="120" y="90" text-anchor="middle" font-family="Arial" font-size="14" fill="#FF4500">NOTARY</text>
+  <text x="120" y="110" text-anchor="middle" font-family="Arial" font-size="14" fill="#FF4500">ADVOCATE</text>
+  <text x="120" y="130" text-anchor="middle" font-family="Arial" font-size="14" fill="#FF4500">GOVT. OF INDIA</text>
+  <path d="M80 150 Q120 180 160 150" fill="none" stroke="#FF4500" stroke-width="2"/>
+</svg>
