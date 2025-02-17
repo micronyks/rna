@@ -1,6 +1,6 @@
 import { AppBar, Toolbar, Button, Typography } from '@mui/material';
 import { useNavigate, useLocation } from 'react-router-dom';
-import GavelIcon from '@mui/icons-material/Gavel';
+import BalanceIcon from '@mui/icons-material/Balance';
 
 const Navbar = () => {
     const navigate = useNavigate();
@@ -10,14 +10,14 @@ const Navbar = () => {
         <AppBar position="static" className="bg-[#FF4500] mb-8">
             <Toolbar className="justify-between">
                 <div className="flex items-center gap-2">
-                    <GavelIcon className="text-3xl" />
+                    <BalanceIcon className="text-3xl" />
 
                     <Button
                         color="inherit"
                         onClick={() => navigate('/profile')}
-                        className={`font-serif ${location.pathname === '/profile' ? 'border-b-2' : ''}`}
+                        className={`${location.pathname === '/profile' ? 'border-b-2' : ''}`}
                     >
-                        <Typography variant="h6" className="font-serif">
+                        <Typography variant="h6">
                             Reena R. Modi
                         </Typography>
                     </Button>
@@ -27,16 +27,23 @@ const Navbar = () => {
                     <Button
                         color="inherit"
                         onClick={() => navigate('/profile')}
-                        className={`font-serif ${location.pathname === '/profile' ? 'border-b-2' : ''}`}
+                        className={`${location.pathname === '/profile' ? 'border-b-2' : ''}`}
                     >
                         Profile
                     </Button>
                     <Button
                         color="inherit"
-                        onClick={() => navigate('/work')}
-                        className={`font-serif ${location.pathname === '/work' ? 'border-b-2' : ''}`}
+                        onClick={() => navigate('/services')}
+                        className={`${location.pathname === '/services' ? 'border-b-2' : ''}`}
                     >
-                        Work
+                        Services
+                    </Button>
+                    <Button
+                        color="inherit"
+                        onClick={() => navigate('/location')}
+                        className={`${location.pathname === '/location' ? 'border-b-2' : ''}`}
+                    >
+                        Location
                     </Button>
                 </div>
             </Toolbar>

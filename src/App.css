@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,7 +13,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Source Sans 3', 'Times New Roman', serif;
+  /* font-family: 'Source Sans 3', 'Times New Roman', serif; */
 }
 
 .MuiButton-root {
