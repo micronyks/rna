@@ -12,10 +12,10 @@ const Profile = () => {
             className="text-white text-4xl font-bold tracking-widest sm:-rotate-90 sm:writing-mode-vertical-lr"
             style={{
               writingMode: 'horizontal-tb',
-              '@media (min-width: 640px)': {
-                writingMode: 'vertical-lr',
-                transform: 'rotate(270deg)'
-              }
+              // '@media (min-width: 640px)': {
+              //   writingMode: 'vertical-lr',
+              //   transform: 'rotate(270deg)'
+              // }
             }}
           >
             NOTARY
