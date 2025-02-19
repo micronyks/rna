@@ -1,6 +1,6 @@
 import { AppBar, Toolbar, Button, Typography, IconButton, Drawer, List, ListItem, ListItemText, ListItemIcon } from '@mui/material';
 import { useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation, To } from 'react-router-dom';
 import MenuIcon from '@mui/icons-material/Menu';
 import PersonIcon from '@mui/icons-material/Person';
 import BuildIcon from '@mui/icons-material/Build';
@@ -18,7 +18,7 @@ const Navbar = () => {
     { label: 'Location', path: '/location', icon: <LocationOnIcon /> },
   ];
 
-  const handleMenuClick = (path) => {
+  const handleMenuClick = (path: To) => {
     navigate(path);
     setSidebarOpen(false); // Close sidebar after navigating
   };
